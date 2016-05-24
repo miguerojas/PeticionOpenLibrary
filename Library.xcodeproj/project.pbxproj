@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		49683FB91CF375A200F6F973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49683FB81CF375A200F6F973 /* AppDelegate.swift */; };
-		49683FBB1CF375A200F6F973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49683FBA1CF375A200F6F973 /* ViewController.swift */; };
 		49683FBE1CF375A200F6F973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49683FBC1CF375A200F6F973 /* Main.storyboard */; };
 		49683FC11CF375A200F6F973 /* Library.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49683FBF1CF375A200F6F973 /* Library.xcdatamodeld */; };
 		49683FC31CF375A200F6F973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49683FC21CF375A200F6F973 /* Assets.xcassets */; };
 		49683FC61CF375A200F6F973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49683FC41CF375A200F6F973 /* LaunchScreen.storyboard */; };
+		49683FCE1CF3787500F6F973 /* LibroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49683FCD1CF3787500F6F973 /* LibroTableViewController.swift */; };
+		49683FD01CF3798100F6F973 /* BusquedaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49683FCF1CF3798100F6F973 /* BusquedaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49683FB51CF375A200F6F973 /* Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49683FB81CF375A200F6F973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49683FBA1CF375A200F6F973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49683FBD1CF375A200F6F973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49683FC01CF375A200F6F973 /* Library.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Library.xcdatamodel; sourceTree = "<group>"; };
 		49683FC21CF375A200F6F973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49683FC51CF375A200F6F973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49683FC71CF375A200F6F973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49683FCD1CF3787500F6F973 /* LibroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibroTableViewController.swift; sourceTree = "<group>"; };
+		49683FCF1CF3798100F6F973 /* BusquedaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusquedaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				49683FB81CF375A200F6F973 /* AppDelegate.swift */,
-				49683FBA1CF375A200F6F973 /* ViewController.swift */,
 				49683FBC1CF375A200F6F973 /* Main.storyboard */,
 				49683FC21CF375A200F6F973 /* Assets.xcassets */,
 				49683FC41CF375A200F6F973 /* LaunchScreen.storyboard */,
 				49683FC71CF375A200F6F973 /* Info.plist */,
 				49683FBF1CF375A200F6F973 /* Library.xcdatamodeld */,
+				49683FCD1CF3787500F6F973 /* LibroTableViewController.swift */,
+				49683FCF1CF3798100F6F973 /* BusquedaViewController.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49683FBB1CF375A200F6F973 /* ViewController.swift in Sources */,
+				49683FD01CF3798100F6F973 /* BusquedaViewController.swift in Sources */,
+				49683FCE1CF3787500F6F973 /* LibroTableViewController.swift in Sources */,
 				49683FB91CF375A200F6F973 /* AppDelegate.swift in Sources */,
 				49683FC11CF375A200F6F973 /* Library.xcdatamodeld in Sources */,
 			);
